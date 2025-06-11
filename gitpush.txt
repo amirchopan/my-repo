@@ -1,0 +1,15 @@
+# مراحل راه‌اندازی اولیه ریپوزیتوری و پوش اولیه
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/amirchopan/EchoUploader.git
+git push -u origin main
+
+# مراحل آپدیت‌های بعدی (مثلاً فقط فایل main.py)
+
+git status
+git add .
+git commit -m "Update main.py"
+git push
